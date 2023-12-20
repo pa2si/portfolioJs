@@ -1,8 +1,8 @@
-v 0.1.1
+v 0.1.2
 
 whats new:
 
-- more button for Custom Web Benefits
+- some typos correction
 
 whats done:
 
@@ -10,3 +10,4 @@ whats done:
 - Hero
 - About
 - Custom Web Benefits
+  - more reasons button for Custom Web Benefits

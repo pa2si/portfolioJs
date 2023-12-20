@@ -13,7 +13,7 @@ const CustomWebBenefits = () => {
   return (
     <div className="bg-white text-gray-800 p-8">
       <h2 className="text-2xl font-semibold mb-4">
-        Why Choose a Custom-Built Website?
+        Find here just a few reasons...
       </h2>
       <div className="space-y-6">
         {reasonsData.slice(0, visibleReasonsCount).map((reason, index) => (
@@ -27,7 +27,7 @@ const CustomWebBenefits = () => {
         <div className="flex justify-center">
           {visibleReasonsCount < reasonsData.length && (
             <button onClick={showMoreReasons} className="btn btn-primary mt-4">
-              More
+              More reasons
             </button>
           )}
         </div>

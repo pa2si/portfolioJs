@@ -9,9 +9,9 @@ export default function Home() {
     <main>
       <Hero />
       <About />
-      <Intermediate text="Why Choose a Custom-Built Website?" />
+      <Intermediate text="Why choose a custom-built Website?" />
       <CustomWebBenefits />
-      <Intermediate text="Find now some example functionalities we can implement" />
+      <Intermediate text="Find now some custom coding examples of general functionalities for web-apps" />
       <Functionalities />
     </main>
   );
