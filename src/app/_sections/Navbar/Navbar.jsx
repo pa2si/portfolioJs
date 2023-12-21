@@ -66,12 +66,15 @@ const Navbar = () => {
                 <Link href="#about">About</Link>
               </li>
               <li>
+                <Link href="#informations">Informations</Link>
+              </li>
+              <li>
                 <details>
-                  <summary>Projects</summary>
+                  <summary>Layouts</summary>
                   <ul className="p-2 ">
                     <li>
-                      <Link className="whitespace-nowrap" href="#projects">
-                        all Projects
+                      <Link className="whitespace-nowrap" href="#layouts">
+                        all Layouts
                       </Link>
                     </li>
                     <li>
@@ -95,10 +98,10 @@ const Navbar = () => {
           {/* social icons */}
           <div className="navbar-end mr-4 xl:mr-0">
             <ul className="flex gap-3 text-primary ">
-              {socialLinks.map((link) => {
+              {socialLinks.map((link, index) => {
                 const { url, icon } = link;
                 return (
-                  <li key={url}>
+                  <li key={index}>
                     <a
                       href={url}
                       className="text-xl hover:text-primary-content hover:scale-125 transition-all duration-200 ease-in-out"

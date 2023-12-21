@@ -1,13 +1,14 @@
-v 0.1.2
+v 0.1.3
 
 whats new:
 
-- some typos correction
+- Layouts
+- custom code funcionalities
 
 whats done:
 
 - Navbar
 - Hero
 - About
-- Custom Web Benefits
-  - more reasons button for Custom Web Benefits
+- Informations
+  - more reasons button

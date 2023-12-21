@@ -9,14 +9,14 @@ const About = () => {
     >
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 bg-white shadow-xl rounded-lg overflow-hidden">
         {/* Image container */}
-        <div className="relative w-full h-[500px] md:h-auto">
+        <div className="w-full h-[400px] md:h-auto relative">
           <Image
-            src="/profile.jpg" // Update the path as needed
+            src="/profile.jpg"
             alt="Profile image of Pascal Morgan"
             width={500}
             height={500}
-            layout="responsive"
-            className="rounded-l-lg"
+            priority
+            className="rounded-l-lg object-cover w-full h-full"
           />
         </div>
 
